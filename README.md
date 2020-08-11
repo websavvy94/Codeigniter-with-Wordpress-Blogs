@@ -20,6 +20,11 @@ Integrate Wordpress into Codeigniter
 
 Run your local server, "http://ciwp.test.com" on your browser, then you can see this simple website.
 
+# Wordpress Dashboard Access
+link: http://ciwp.test.com/blog-management/wp-login.php
+user: apple
+pwd: apple
+
 # Issue Description
 Go to about page(/blog page/contact page) and open console window, then you can see 404 error.
 http://prntscr.com/txhxl7
