@@ -306,17 +306,7 @@ switch (ENVIRONMENT)
 	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
 
 
-
-define('WP_USE_THEMES', false);
-require_once './blog-management/wp-blog-header.php';
-
-add_filter('site_url', 'ci_site_url', 1);
-
-function ci_site_url()
-{
-	include(APPPATH.'/config/config.php');
-	return $config['base_url'];
-}
+require_once './blog-management/wp-load.php';
 
 
 
